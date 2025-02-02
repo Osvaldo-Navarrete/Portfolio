@@ -73,9 +73,9 @@ toggle2.addEventListener('change', (event) => {
     langua1.textContent = '🔠 Idiomas: ';
     teamw.textContent = '👥 Trabajo en equipo'; 
     assert.textContent = '🫡 Asertividad'; 
-    creati.textContent = '🚀 Creatividad'; 
+    creati.textContent = '🚀 Creativo'; 
     adapta.textContent = '🎡 Adaptabilidad'; 
-    proact.textContent = '⚡ Proactividad'; 
+    proact.textContent = '⚡ Proactivo'; 
     proyecto3.textContent = 'Prácticas';
     proyecto4.innerHTML = 'Ejercicios';
   } else {
