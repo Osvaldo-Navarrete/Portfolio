@@ -15,7 +15,7 @@ body {
     background-image: radial-gradient(circle at 50% -20.71%, #435d9c 0, #111e38 50%, #000000 100%);
     font-size: 1.2rem;
     min-height: 100vh;
-
+    padding: 0 10px;
 }
 
 .grid-container>* {
@@ -41,19 +41,18 @@ body {
 
     .botones {
         position: absolute;
+        
         top: 1rem;
         right: 0rem;
         border: none;
         background-color: none;
         box-shadow: none;
         border: none;
-        transition: .5s ease-in-out;
     }
 
-    #toggle {
+    #toggle, #toggle2 {
         display: none;
         cursor: pointer;
-        transition: 1s ease;
     }
 
     label {
@@ -178,8 +177,6 @@ body {
         min-height: 50dvh;
 
         ul {
-
-            transition: .8s;
             background-color: rgba(255, 255, 255, 0.799);
             box-shadow: 0 0 20px 2px #3e71ff;
             list-style: none;
@@ -197,7 +194,6 @@ body {
                 font-weight: 500;
                 color: #1c3777;
                 text-decoration: none;
-                transition: .5s;
                 font-weight: bold;
             }
 
@@ -255,7 +251,7 @@ body {
             transition: .5s ease-in-out;
         }
 
-        #toggle {
+        #toggle, #toggle2 {
             display: none;
             cursor: pointer;
             transition: 1s ease;
@@ -269,7 +265,7 @@ body {
         .content4 {
             .swiper .swiper-wrapper img {
                 width: 100%;
-                padding: 20px 0 20px 0;
+                padding: 10px 0 0px 0;
             }
         }
 
@@ -299,10 +295,11 @@ body {
             transition: .5s ease-in-out;
         }
 
-        #toggle {
+        #toggle, #toggle2{
             display: none;
             cursor: pointer;
             transition: 1s ease;
+
         }
 
         label {
@@ -346,7 +343,7 @@ body {
             transition: .5s ease-in-out;
         }
 
-        #toggle {
+        #toggle, #toggle2 {
             display: none;
             cursor: pointer;
             transition: 1s ease;
@@ -359,7 +356,7 @@ body {
 
         .content4 {
             .swiper .swiper-wrapper img {
-                width: 60%;
+                width: 70%;
                 align-content: center;
             }
         }
