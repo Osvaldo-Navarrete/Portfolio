@@ -58,7 +58,7 @@ let toggle2 = document.getElementById("toggle2");
 
 toggle2.addEventListener('change', (event) => {
   let checked = event.target.checked;
-  document.getElementById('titulo1', 'titulo2', 'titulo3', 'titulo4', 'degree', 'descrip', 'tech1', 'meth1', 'skills', 'langua1', 'teamw', 'assert', 'creati', 'adapta', 'proact', 'proyecto3', 'proyecto4');
+  document.getElementById('titulo1', 'titulo2', 'titulo3', 'titulo4', 'degree', 'descrip', 'tech1', 'meth1', 'skills', 'langua1', 'teamw', 'assert', 'creati', 'adapta', 'proact', 'proyecto3', 'proyecto4', 'proyecto5');
 
   if (toggle = checked) {
     titulo1.textContent = 'Sobre mí';
@@ -78,6 +78,7 @@ toggle2.addEventListener('change', (event) => {
     proact.textContent = '⚡ Proactivo'; 
     proyecto3.textContent = 'Prácticas';
     proyecto4.innerHTML = 'Ejercicios';
+    proyecto5.innerHTML = 'Abogado';
   } else {
     titulo1.textContent = 'About me';
     titulo2.textContent = 'Projects';
@@ -96,6 +97,7 @@ toggle2.addEventListener('change', (event) => {
     proact.textContent = '⚡ Proactivity'; 
     proyecto3.textContent = 'Internship';
     proyecto4.innerHTML = 'Small Projects';
+    proyecto5.innerHTML = 'Lawyer';
   }
 
 })
