@@ -1,0 +1,36 @@
+/*Autofill agrega un espacio cuando no hay suficientes elementos 
+Y autofit hace que los elementos se expandan hasta cubrir el espacio.*/
+@mixin autogrid-template {
+    display: grid;
+    gap: 6rem;
+    grid-auto-flow: dense;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+
+    /*You can use too: 
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    */
+    @media screen and (min-width: 1000px) {
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    }
+}
+
+@mixin shadow1 {
+    box-shadow: 10px 10px 0px #5D646D;
+}
+
+@mixin flexing-objects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@mixin glassmorphism {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}

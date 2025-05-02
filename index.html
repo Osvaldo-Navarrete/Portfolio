@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osvaldo Navarrete</title>
+    <meta name="description"
+        content="Hola, soy Osvaldo Navarrete, un desarrollador web apasionado por la tecnología y el aprendizaje continuo. Aquí encontrarás mis proyectos y experiencias.">
+    <meta name="keywords" content="Osvaldo Navarrete, desarrollador web, tecnología, aprendizaje continuo, proyectos">
+
+    <link href="assets/img/favicon.png" type="image/x-icon" rel="shortcut icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--Fuente-->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+
+<body>
+    <canvas id="bubbles"></canvas>
+    <nav class="botones" id="botones">
+        <!-- <label for="toggle" id="paleta">🎨</label>
+        <input type="checkbox" id="toggle"> -->
+        <label for="toggle2" id="language">🌐</label>
+        <input type="checkbox" id="toggle2">
+    </nav>
+    <main class="container_principal" id="container-principal">
+        <aside class="perfil" id="perfil">
+            <div id="personalCard">
+                <div id="imageUser">
+                    <img src="assets/img/perfil.webp" alt="Fotografía de Osvaldo Navarrete" id="imgPerfil">
+                </div>
+                <h1>Osvaldo Navarrete</h1>
+                <span id="degree">Ing. de Software y Sistemas Computacionales 🖥️</span>
+                <br>
+                <br>
+                <p id="descrip">Me gusta ser parte de un equipo, aprender continuamente y aportar ideas, también me
+                    gusta la realidad virtual y aprender idiomas.
+                </p>
+                <br>
+                <ul class="redes">
+                    <li>
+                        <a href="https://github.com/Osvaldo-navarrete" target="_blank" alt="Git-hub icon">
+                            <i class="fab fa-github icon" alt="github icon"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/osvaldo-navarrete-a0b896200/" target="_blank"
+                            alt="LinkedIn icon">
+                            <i class="fab fa-linkedin icon" alt="LinkedIn icon"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:osvaldonc86@gmail.com" target="_blank" alt="Gmail icon">
+                            <i class="far fa-envelope icon" alt="Gmail icon"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/7442668583?" target="_blank" alt="WhatsApp icon">
+                            <i class="fab fa-whatsapp icon" alt="WhatsApp icon"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+
+    <aside class="titulos" id="titulos1">
+        <h2 id="titulo1">Mis proyectos</h2>
+    </aside>
+
+    <section class="container_secundario" id="container-secundario">
+        <div class="proyectos_container" id="proyectos-container">
+            <ul class="proyectos_list" id="proyectos-list">
+                <li class="list_item" id="list-item-7">
+                    <a href="https://osvaldo-navarrete.github.io/ClimaAPI/" target="_blank">
+                        <img src="assets/img/APIclima.webp" alt="Proyecto Tienda en línea">
+                        <h3 id="proy7title">Consulta de clima</h3><br>
+                        <p id="proy7desc">Página para consultar el clima por ciudad, consumiendo API de clima
+                            OpenWeatherAPI.</p>
+                        <br><br>
+                        <p id="proy7built">Desarrollado con:</p>
+                        <p><b>JavaScript, HTML & SASS</b></p>
+                    </a>
+                </li>
+                <li class="list_item" id="list-item-6">
+                    <a href="https://osvaldo-navarrete.github.io/TiendaOnline/" target="_blank">
+                        <img src="assets/img/tiendaOnline.webp" alt="Proyecto Tienda en línea">
+                        <h3 id="proy6title">Tienda en línea</h3><br>
+                        <p id="proy6desc">Tienda en línea con modo oscuro y responsive incluído, adaptable y
+                            estéticamente llamativo.</p>
+                        <br><br>
+                        <p id="proy6built">Desarrollado con:</p>
+                        <p><b>React JS & Tailwind CSS</b></p>
+                    </a>
+                </li>
+                <li class="list_item" id="list-item-1">
+                    <a href="https://osvaldo-navarrete.github.io/lawyerconcept/" target="_blank">
+                        <img src="assets/img/Lawyer.webp" alt="Proyecto de abogado">
+                        <h3 id="proy1title">Landing Page Abogado</h3><br>
+                        <p id="proy1desc">Proyecto de una landing page para un abogado, con un diseño limpio y
+                            profesional.</p>
+                        <br><br>
+                        <p id="proy1built">Desarrollado con:</p>
+                        <p><b>HTML, SASS & JavaScript</b></p>
+                    </a>
+                </li>
+                <li class="list_item" id="list-item-2">
+                    <a href="https://osvaldo-navarrete.github.io/AquilesVet/" target="_blank">
+                        <img src="assets/img/aquilesvet.webp" alt="Proyecto #AquilesVet">
+                        <h3 id="proy2title">#AquilesVet</h3><br>
+                        <p id="proy2desc">Proyecto de una landing page para una clínica veterinaria, con un diseño a
+                            medida y funcional.
+                        </p>
+                        <br><br>
+                        <p id="proy2built">Desarrollado con:</p>
+                        <p><b>HTML, CSS & JavaScript</b></p>
+                    </a>
+                </li>
+                <li class="list_item" id="list-item-3">
+                    <a href="https://osvaldo-navarrete.github.io/MegaFeria-Aca/" target="_blank">
+                        <img src="assets/img/megaferia.webp" alt="Proyecto megaferia">
+                        <h3 id="proy3title">Proyecto Megaferia</h3><br>
+                        <p id="proy3desc">Proyecto escolar Landing Page, recreado desde cero de la página oficial y
+                            venta de boletos con SQL.
+                        </p>
+                        <br><br>
+                        <p id="proy3built">Desarrollado con:</p>
+                        <p><b>HTML, CSS, JavaScript & MySQL</b></p>
+                    </a>
+                </li>
+                <li class="list_item" id="list-item-4">
+                    <a href="https://osvaldo-navarrete.github.io/InternshipProject/" target="_blank">
+                        <img src="assets/img/Internship.webp" alt="Proyecto de practicas profesionales">
+                        <h3 id="proy4title">Prácticas profesionales</h3><br>
+                        <p id="proy4desc">Proyecto realizado durante mis prácticas profesionales y aprendiendo a usar
+                            bases de datos.</p>
+                        <br><br>
+                        <p id="proy4built">Desarrollado con:</p>
+                        <p><b>HTML, CSS & JavaScript.</b></p>
+                    </a>
+                </li>
+                <li class="list_item" id="list-item-5">
+                    <a href="https://github.com/Osvaldo-navarrete" target="_blank">
+                        <img src="assets/img/img2.webp" alt="Proyectos varios">
+                        <h3 id="proy5title">Ejercicios con JavaScript</h3><br>
+                        <p id="proy5desc">Ejercicios de JavaScript, donde aprendí a usar funciones y estructuras de
+                            control.
+                        </p>
+                        <br><br>
+                        <p id="proy5built">Desarrollado con:</p>
+                        <p><b>HTML, CSS & JavaScript.</b></p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section class="container_terciario" id="container-terciario">
+        <div class="titulos" id="titulos2">
+            <h2 id="titulo2">Conocimientos y habilidades</h2>
+        </div>
+        <div class="about_me_1" id="about-me-1">
+            <ul class="about_me_list1" id="about-me-list">
+                <li id="habilidades" style="list-style: none;" class="bolder">Habilidades blandas: 🤓<br></li>
+                <li id="hab1">Adaptabilidad 🎡</li>
+                <li id="hab2">Trabajo en equipo 👥</li>
+                <li id="hab3">Comunicación asertiva 🫡</li>
+                <li id="hab4">Creatividad 🚀</li>
+                <li id="hab5">Proactividad ⚡</li>
+            </ul>
+            <img src="assets/img/octopus2.png" alt="Imagen de un pulpo" id="octopus">
+
+        </div>
+        <div class="about_me_2" id="about-me-2">
+            <ul class="about_me_list1" id="about-me-list1">
+                <li id="meth" style="list-style: none;" class="bolder"><b>Metodologías: 🛠️ <br></b></li>
+                <li>SCRUM</li>
+                <li>Kanban</li>
+                <li>Jira</li>
+            </ul>
+            <img src="assets/img/personaje.webp" alt="Imagen de un joven" id="joven">
+            <ul class="about_me_list2" id="about-me-list2">
+                <li id="lang" style="list-style: none;" class="bolder"><b>Idiomas: 🌐<br> </b></li>
+                <li id="lang1">Español: nativo</li>
+                <li id="lang2">Inglés: B1+</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="container_cuaternario" id="container-cuaternario">
+        <aside class="titulos" id="tecnologias">
+            <h2 id="worked">Tecnologías con las que he trabajado</h2><br><br>
+        </aside>
+        <div class="slider">
+            <div class="list">
+                <div class="item" style="--position: 1"><img src="assets/img/JavaScript-logo.webp" alt="Js Logo"></div>
+                <div class="item" style="--position: 2"><img src="assets/img/html5-logo-adaweb.webp" alt="HTML logo">
+                </div>
+                <div class="item" style="--position: 3"><img src="assets/img/CSS-Logo.webp" alt="CSS logo"></div>
+                <div class="item" style="--position: 4"><img src="assets/img/Sass_Logo_Color.svg.webp" alt="SASS logo">
+                </div>
+                <div class="item" style="--position: 5"><img src="assets/img/images.webp" alt="Tailwind logo"></div>
+                <div class="item" style="--position: 6"><img src="assets/img/React.svg.webp" alt="React logo"></div>
+                <div class="item" style="--position: 7"><img src="assets/img/mysql.webp" alt="MYSQL logo"></div>
+                <div class="item" style="--position: 8"><img src="assets/img/Git_icon.svg.webp" alt="SQL Server logo">
+                </div>
+                <div class="item" style="--position: 9"><img src="assets/img/Octicons-mark-github.svg"
+                        alt="GitHub logo"></div>
+            </div>
+        </div>
+    </footer>
+    <a href="#" class="scrollup" id="scroll-up" alt="Scroll up button">
+        <box-icon type='solid' name='up-arrow-square' color='black' alt="scroll-up icon"></box-icon>
+    </a>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/bubbles.js"></script>
+    <script src="assets/js/language.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+
+
+</html>
