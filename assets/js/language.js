@@ -3,10 +3,11 @@ let toggle2 = document.getElementById("toggle2");
 toggle2.addEventListener('change', (event) => {
   let checked = event.target.checked;
   document.getElementById('degree', 'descip', 'titulo1', 'titulo2');
-    
+  let builted = document.querySelectorAll(".builted")
+
   if (toggle2 = checked) {
     degree.textContent = 'Software Engineer and Systems degree 🖥️';
-    descrip.textContent = 'I enjoy being part of a team, continuous learning and contributing ideas, also like VR tech and learning languages.'; 
+    descrip.textContent = 'I enjoy being part of a team, continuous learning and contributing ideas, also like VR tech and learning languages.';
     titulo1.textContent = 'My projects';
     titulo2.textContent = 'Knowledge and skills';
     habilidades.textContent = 'Soft skills: 🤓'
@@ -23,29 +24,26 @@ toggle2.addEventListener('change', (event) => {
     proy1title.textContent = 'Lawyer Landing Page';
     proy3title.textContent = 'Megaferia Project';
     proy4title.textContent = 'Internship Project';
-    proy5title.textContent = 'JavaScript Excercises';  
+    proy5title.textContent = 'JavaScript Excercises';
     proy1desc.textContent = 'Project of a landing page for a lawyer, with a clean, responsive and professional design.';
-    proy1built.textContent = 'Built with: ';
     proy2desc.textContent = 'Project of a landing page for a veterinary clinic, with a custom and functional design.';
-    proy2built.textContent = 'Built with: ';
     proy3desc.textContent = 'School project Landing Page, recreated from scratch of the official page and ticket sales with SQL.';
-    proy3built.textContent = 'Built with: ';
     proy4desc.textContent = 'Internship project, where I learned about the development of a web application and the use of SQL.';
-    proy4built.textContent = 'Built with: ';
     proy5desc.textContent = 'JavaScript exercises, where I learned to use functions and control structures.';
-    proy5built.textContent = 'Built with: ';
     proy6title.textContent = 'Online Store';
-    proy6desc.textContent = 'An online store with dark mode and responsiveness included, adaptable and aesthetically striking.'; 
-    proy6built.textContent = 'Built with:'
+    proy6desc.textContent = 'An online store with dark mode and responsiveness included, adaptable and aesthetically striking.';
     proy7title.textContent = 'Weather web';
-    proy7desc.textContent = 'Page to check the weather by city, consuming OpenWeatherAPI'
-    proy7built.textContent = 'Built with: '
+    proy7desc.textContent = 'Page to check the weather by city, consuming OpenWeatherAPI.'
+    proy8title.textContent = "Reviews Page"
+    proy8desc.textContent = "Job reviews landing page, based on Murad's design on the Behance website."
+    proy9desc.textContent = "Landing page created with React and Tailwind for the local restaurant Malek Burger, in Campeche, Mexico."
+    builted.forEach(item => item.textContent = "Built with: ")
   } else {
     degree.textContent = 'Ing. Software y Sistemas Computacionales 🖥️';
-    descrip.textContent = 'Me gusta ser parte de un equipo, aprender continuamente y aportar ideas, también me gusta la realidad virtual y aprender idiomas.'; 
+    descrip.textContent = 'Me gusta ser parte de un equipo, aprender continuamente y aportar ideas, también me gusta la realidad virtual y aprender idiomas.';
     titulo1.textContent = 'Mis proyectos';
     titulo2.textContent = 'Conocimientos y habilidades';
-    habilidades.textContent = 'Habilidades blandas: 🤓'; 
+    habilidades.textContent = 'Habilidades blandas: 🤓';
     hab1.textContent = 'Adaptabilidad 🎡';
     hab2.textContent = 'Trabajo en equipo 👥';
     hab3.textContent = 'Comunicación asertiva 🫡';
@@ -61,20 +59,17 @@ toggle2.addEventListener('change', (event) => {
     proy4title.textContent = 'Prácticas profesionales';
     proy5title.textContent = 'Ejercicios con JavaScript';
     proy1desc.textContent = 'Proyecto de una landing page para un abogado, con un diseño limpio y profesional.';
-    proy1built.textContent = 'Desarrollado con: ';
     proy2desc.textContent = 'Proyecto de una landing page para una clínica veterinaria, con un diseño a medida y funcional.'
-    proy2built.textContent = 'Desarrollado con: ';
     proy3desc.textContent = 'Proyecto escolar Landing Page, recreado desde cero de la página oficial y venta de boletos con SQL.'
-    proy3built.textContent = 'Desarrollado con: ';
     proy4desc.textContent = 'Proyecto realizado durante mis prácticas profesionales y aprendiendo a usar bases de datos.'
-    proy4built.textContent = 'Desarrollado con: ';
     proy5desc.textContent = 'Ejercicios de JavaScript, donde aprendí a usar funciones y estructuras de control.'
-    proy5built.textContent = 'Desarrollado con: ';
-    proy6title.textContent ='Tienda en línea';
-    proy6desc.textContent = 'Tienda en línea con modo oscuro y responsive incluído, adaptable y estéticamente llamativo.'; 
-    proy6built.textContent = 'Desarrollado con: '; 
-    proy7title.textContent = "Consulta de clima"; 
+    proy6title.textContent = 'Tienda en línea';
+    proy6desc.textContent = 'Tienda en línea con modo oscuro y responsive incluído, adaptable y estéticamente llamativo.';
+    proy7title.textContent = "Consulta de clima";
     proy7desc.textContent = "Página para consultar el clima por ciudad, consumiendo API de clima OpenWeatherAPI.";
-    proy7built.textContent = 'Desarrollado con: '
+    proy8title.textContent = "Página de reseñas"
+    proy8desc.textContent = "Landing page sobre reseñas laborales, creado a partir del diseño de Murad en el sitio web Behance."
+    proy9desc.textContent = "Landing page realizado con React y Tailwind, para restaurante local Malek Burger, en la ciudad de Campeche, México."
+    builted.forEach(item => item.textContent = "Desarrollado con: ")
   }
 })
