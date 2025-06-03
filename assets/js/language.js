@@ -38,7 +38,7 @@ toggle2.addEventListener('change', (event) => {
     proy8desc.textContent = "Job reviews landing page, based on Murad's design on the Behance website."
     proy9desc.textContent = "Landing page created with React and Tailwind for the local restaurant Malek Burger, in Campeche, Mexico."
     proy10title.textContent = "Inventory + Sales system";
-    proy10desc.textContent = "A system for maintaining inventory of supplies, products, and promotions, with the addition of sales and ticket printing."
+    proy10desc.textContent = "A system for maintaining inventory of supplies, products, and promotions, with the addition of sales and ticket printing.";
     builted.forEach(item => item.textContent = "Built with: ")
   } else {
     degree.textContent = 'Ing. Software y Sistemas Computacionales 🖥️';
@@ -54,7 +54,7 @@ toggle2.addEventListener('change', (event) => {
     meth.textContent = 'Metodologías: 🛠️';
     lang.textContent = 'Idiomas: 🌐';
     lang1.textContent = 'Español: nativo';
-    lang2.textContent = 'Inglés: B1+';
+    lang2.textContent = 'Inglés: B1+'; 
     worked.textContent = 'Tecnologías con las que he trabajado';
     proy1title.textContent = 'Landing Page de Abogado';
     proy3title.textContent = 'Proyecto Megaferia';
