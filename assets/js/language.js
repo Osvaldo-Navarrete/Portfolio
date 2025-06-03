@@ -37,6 +37,8 @@ toggle2.addEventListener('change', (event) => {
     proy8title.textContent = "Reviews Page"
     proy8desc.textContent = "Job reviews landing page, based on Murad's design on the Behance website."
     proy9desc.textContent = "Landing page created with React and Tailwind for the local restaurant Malek Burger, in Campeche, Mexico."
+    proy10title.textContent = "Inventory + Sales system";
+    proy10desc.textContent = "A system for maintaining inventory of supplies, products, and promotions, with the addition of sales and ticket printing."
     builted.forEach(item => item.textContent = "Built with: ")
   } else {
     degree.textContent = 'Ing. Software y Sistemas Computacionales 🖥️';
@@ -69,7 +71,9 @@ toggle2.addEventListener('change', (event) => {
     proy7desc.textContent = "Página para consultar el clima por ciudad, consumiendo API de clima OpenWeatherAPI.";
     proy8title.textContent = "Página de reseñas"
     proy8desc.textContent = "Landing page sobre reseñas laborales, creado a partir del diseño de Murad en el sitio web Behance."
-    proy9desc.textContent = "Landing page realizado con React y Tailwind, para restaurante local Malek Burger, en la ciudad de Campeche, México."
+    proy9desc.textContent = "Landing page realizado con React y Tailwind, para restaurante local Malek Burger, en la ciudad de Campeche, México.";
+    proy10title.textContent = "Sistema de Inventario + ventas";
+    proy10desc.textContent = "Un sistema para mantener el inventario de insumos, productos y promos, con la incorporación de ventas e impresión de tickets."; 
     builted.forEach(item => item.textContent = "Desarrollado con: ")
   }
 })
