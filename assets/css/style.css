@@ -83,6 +83,9 @@ body {
 .container_principal .perfil h1 {
   font-size: 2rem;
 }
+.container_principal .perfil #listaContacto {
+  padding-top: 10px;
+}
 .container_principal .perfil #personalCard {
   display: flex;
   flex-direction: column;

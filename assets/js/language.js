@@ -8,6 +8,7 @@ toggle2.addEventListener('change', (event) => {
   if (toggle2 = checked) {
     degree.textContent = 'Software Engineer and Systems degree 🖥️';
     descrip.textContent = 'I enjoy being part of a team, collaborating on projects that help me push my limits, contribute ideas, and consolidate goals. I consider myself extremely persistent, proactive, and able to adapt to new challenges.';
+    listaContacto.textContent = 'Contact'
     titulo1.textContent = 'My projects';
     titulo2.textContent = 'Knowledge and skills';
     habilidades.textContent = 'Soft skills: 🤓'
@@ -43,6 +44,7 @@ toggle2.addEventListener('change', (event) => {
   } else {
     degree.textContent = 'Ing. Software y Sistemas Computacionales 🖥️';
     descrip.textContent = 'Disfruto formar parte de un equipo, colaborar en proyectos que me ayudan a superar mis límites, aportar ideas y consolidar objetivos, me considero una persona sumamente persistente, proactiva y con la capacidad de adaptarme a nuevos retos.';
+    listaContacto.textContent = 'Contacto'
     titulo1.textContent = 'Mis proyectos';
     titulo2.textContent = 'Conocimientos y habilidades';
     habilidades.textContent = 'Habilidades blandas: 🤓';

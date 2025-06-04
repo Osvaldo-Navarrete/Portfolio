@@ -86,6 +86,10 @@ body {
         @include cardsnbuttons.shadow1;
         border-radius: 8px;
 
+        #listaContacto {
+            padding-top: 10px;
+        }
+
         #personalCard {
             @include flexConfig.flex-auto;
 
