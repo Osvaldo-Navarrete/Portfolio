@@ -7,7 +7,7 @@ toggle2.addEventListener('change', (event) => {
 
   if (toggle2 = checked) {
     degree.textContent = 'Software Engineer and Systems degree 🖥️';
-    descrip.textContent = 'I enjoy being part of a team, continuous learning and contributing ideas, also like VR tech and learning languages.';
+    descrip.textContent = 'I enjoy being part of a team, collaborating on projects that help me push my limits, contribute ideas, and consolidate goals. I consider myself extremely persistent, proactive, and able to adapt to new challenges.';
     titulo1.textContent = 'My projects';
     titulo2.textContent = 'Knowledge and skills';
     habilidades.textContent = 'Soft skills: 🤓'
@@ -42,7 +42,7 @@ toggle2.addEventListener('change', (event) => {
     builted.forEach(item => item.textContent = "Built with: ")
   } else {
     degree.textContent = 'Ing. Software y Sistemas Computacionales 🖥️';
-    descrip.textContent = 'Me gusta ser parte de un equipo, aprender continuamente y aportar ideas, también me gusta la realidad virtual y aprender idiomas.';
+    descrip.textContent = 'Disfruto formar parte de un equipo, colaborar en proyectos que me ayudan a superar mis límites, aportar ideas y consolidar objetivos, me considero una persona sumamente persistente, proactiva y con la capacidad de adaptarme a nuevos retos.';
     titulo1.textContent = 'Mis proyectos';
     titulo2.textContent = 'Conocimientos y habilidades';
     habilidades.textContent = 'Habilidades blandas: 🤓';
@@ -54,7 +54,7 @@ toggle2.addEventListener('change', (event) => {
     meth.textContent = 'Metodologías: 🛠️';
     lang.textContent = 'Idiomas: 🌐';
     lang1.textContent = 'Español: nativo';
-    lang2.textContent = 'Inglés: B1+'; 
+    lang2.textContent = 'Inglés: B1+';
     worked.textContent = 'Tecnologías con las que he trabajado';
     proy1title.textContent = 'Landing Page de Abogado';
     proy3title.textContent = 'Proyecto Megaferia';
@@ -73,7 +73,7 @@ toggle2.addEventListener('change', (event) => {
     proy8desc.textContent = "Landing page sobre reseñas laborales, creado a partir del diseño de Murad en el sitio web Behance."
     proy9desc.textContent = "Landing page realizado con React y Tailwind, para restaurante local Malek Burger, en la ciudad de Campeche, México.";
     proy10title.textContent = "Sistema de Inventario + ventas";
-    proy10desc.textContent = "Un sistema para mantener el inventario de insumos, productos y promos, con la incorporación de ventas e impresión de tickets."; 
+    proy10desc.textContent = "Un sistema para mantener el inventario de insumos, productos y promos, con la incorporación de ventas e impresión de tickets.";
     builted.forEach(item => item.textContent = "Desarrollado con: ")
   }
 })
