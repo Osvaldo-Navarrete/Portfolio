@@ -79,15 +79,29 @@ body {
 
         h1 {
             font-size: 2rem;
-            background: linear-gradient(to right, #caae0d 0%, #D9D5CB 100%);
+            background: linear-gradient(270deg, #ffd900, #b04fff, #caae0d);
+            background-size: 600% 600%;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            /* Soporte para otros navegadores */
             color: transparent;
-            /* Para navegadores que no entienden -webkit- prefijos */
+
+            animation: animateGradient 10s ease infinite;
         }
 
+        @keyframes animateGradient {
+            0% {
+                background-position: 100% 50%;
+            }
+
+            50% {
+                background-position: 0% 50%;
+            }
+
+            100% {
+                background-position: 100% 50%;
+            }
+        }
 
         @include cardsnbuttons.glassmorphism;
         border: 1px solid #c5c5c5;
