@@ -79,11 +79,15 @@ body {
 
         h1 {
             font-size: 2rem;
-            background: #EDCE13;
             background: linear-gradient(to right, #caae0d 0%, #D9D5CB 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            background-clip: text;
+            /* Soporte para otros navegadores */
+            color: transparent;
+            /* Para navegadores que no entienden -webkit- prefijos */
         }
+
 
         @include cardsnbuttons.glassmorphism;
         border: 1px solid #c5c5c5;
@@ -203,7 +207,6 @@ body {
 
 .container_secundario {
     overflow: hidden;
-    
 
     p {
         font-size: 1.1rem;
