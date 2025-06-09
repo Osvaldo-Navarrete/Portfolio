@@ -21,8 +21,8 @@ canvas {
 body {
     width: 100%;
     min-height: 100vh;
-    background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
-    color: #333;
+    background: linear-gradient(180deg, rgba(0, 2, 51, 1) 0%, rgba(84, 35, 153, 1) 99%);
+    color: #e3e3e3;
 }
 
 .botones {
@@ -78,11 +78,15 @@ body {
         }
 
         h1 {
-            font-size: 2rem
+            font-size: 2rem;
+            background: #EDCE13;
+            background: linear-gradient(to right, #caae0d 0%, #D9D5CB 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
 
         @include cardsnbuttons.glassmorphism;
-        border: 1px solid #333;
+        border: 1px solid #c5c5c5;
         @include cardsnbuttons.shadow1;
         border-radius: 8px;
 
@@ -189,17 +193,17 @@ body {
     }
 
     h2 {
-        border: 1px solid #333;
+
         @include flexConfig.flex-auto;
-        background-color: #37ecba;
-        border-radius: 8px;
+        color: #e0bf07;
         padding: .5rem;
-        @include cardsnbuttons.shadow1;
+        font-size: 2.5rem;
     }
 }
 
 .container_secundario {
     overflow: hidden;
+    
 
     p {
         font-size: 1.1rem;
@@ -214,13 +218,14 @@ body {
     .list_item {
         @include cardsnbuttons.flexing-objects;
         @include cardsnbuttons.shadow1;
-        background-color: #BADFD7;
-        border: 1px solid #333;
+        background: #0D063A;
+        background: linear-gradient(171deg, rgba(13, 6, 58, 1) 68%, rgba(26, 63, 141, 1) 99%);
+        border: 1px solid #c5c5c5;
         border-radius: 8px;
         padding: 1rem;
 
         a {
-            color: #333;
+            color: #c5c5c5;
         }
 
         img {
@@ -231,19 +236,13 @@ body {
 }
 
 .container_terciario {
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(5px);
     padding-bottom: 2rem;
     overflow: hidden;
+    color: #333;
 
     .bolder {
         font-weight: bold;
     }
-
-    #titulos2 h2 {
-        background-color: #72AFD3;
-    }
-
 
     .about_me_1 {
         font-size: 1.1rem;
@@ -267,7 +266,7 @@ body {
             border-radius: 8px;
             padding: 4rem;
             @include cardsnbuttons.shadow1;
-            background-color: #F8E4BF;
+            background-color: #f2df72;
             rotate: -5deg;
         }
 
@@ -307,7 +306,7 @@ body {
 .container_cuaternario {
     padding-top: 1rem;
     width: 100%;
-    background-color: #BADFD7;
+    background-color: #542399d0;
 
     div {
         @include flexConfig.flex-auto;
