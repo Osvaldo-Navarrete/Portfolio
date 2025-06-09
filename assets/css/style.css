@@ -37,7 +37,7 @@ body {
 .botones label {
   background-color: #0A2A42;
   border: 1px solid #333;
-  box-shadow: 10px 10px 0px rgba(126, 0, 165, 0.4784313725);
+  box-shadow: 10px 10px 0px rgba(232, 232, 232, 0.4784313725);
   font-size: 2.5rem;
   border: 1px solid #ffffff;
   border-radius: 8px;
@@ -65,14 +65,14 @@ body {
   overflow: hidden;
 }
 .container_principal .perfil {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(30, 30, 30, 0.7254901961);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
   border: 1px solid #c5c5c5;
-  box-shadow: 10px 10px 0px rgba(126, 0, 165, 0.4784313725);
+  box-shadow: 10px 10px 0px rgba(232, 232, 232, 0.4784313725);
   border-radius: 8px;
 }
 .container_principal .perfil p {
@@ -201,6 +201,8 @@ body {
 
 .container_secundario {
   overflow: hidden;
+  background: rgba(30, 30, 30, 0.7254901961);
+  padding-bottom: 5rem;
 }
 .container_secundario p {
   font-size: 1.1rem;
@@ -226,10 +228,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 10px 10px 0px rgba(126, 0, 165, 0.4784313725);
-  background: #0D063A;
-  background: linear-gradient(171deg, rgb(13, 6, 58) 68%, rgb(26, 63, 141) 99%);
-  border: 1px solid #c5c5c5;
+  box-shadow: 10px 10px 0px rgba(232, 232, 232, 0.4784313725);
+  background-color: #1E1E1E;
+  border: 1px solid #383838;
   border-radius: 8px;
   padding: 1rem;
 }
@@ -284,7 +285,7 @@ body {
   border: 1px solid #333;
   border-radius: 8px;
   padding: 4rem;
-  box-shadow: 10px 10px 0px rgba(126, 0, 165, 0.4784313725);
+  box-shadow: 10px 10px 0px rgba(232, 232, 232, 0.4784313725);
   background-color: #f2df72;
   rotate: -5deg;
 }
@@ -325,7 +326,7 @@ body {
   border: 1px solid #333;
   border-radius: 8px;
   padding: 4rem;
-  box-shadow: 10px 10px 0px rgba(126, 0, 165, 0.4784313725);
+  box-shadow: 10px 10px 0px rgba(232, 232, 232, 0.4784313725);
   background-color: #ABDA7F;
   rotate: -8deg;
 }
@@ -384,7 +385,7 @@ body {
   padding: 0.5rem;
   border-radius: 0.25rem;
   transition: 0.4s;
-  box-shadow: 10px 10px 0px rgba(126, 0, 165, 0.4784313725);
+  box-shadow: 10px 10px 0px rgba(232, 232, 232, 0.4784313725);
 }
 
 /* Show Scroll Up*/

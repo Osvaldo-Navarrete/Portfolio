@@ -221,7 +221,8 @@ body {
 
 .container_secundario {
     overflow: hidden;
-
+    background: #1e1e1eb9;
+    padding-bottom: 5rem;
     p {
         font-size: 1.1rem;
     }
@@ -235,9 +236,8 @@ body {
     .list_item {
         @include cardsnbuttons.flexing-objects;
         @include cardsnbuttons.shadow1;
-        background: #0D063A;
-        background: linear-gradient(171deg, rgba(13, 6, 58, 1) 68%, rgba(26, 63, 141, 1) 99%);
-        border: 1px solid #c5c5c5;
+        background-color: #1E1E1E;
+        border: 1px solid #383838;
         border-radius: 8px;
         padding: 1rem;
 

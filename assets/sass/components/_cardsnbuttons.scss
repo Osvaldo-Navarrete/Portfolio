@@ -16,7 +16,7 @@ Y autofit hace que los elementos se expandan hasta cubrir el espacio.*/
 }
 
 @mixin shadow1 {
-    box-shadow: 10px 10px 0px #7e00a57a;
+    box-shadow: 10px 10px 0px #e8e8e87a;
 }
 
 @mixin flexing-objects {
@@ -27,7 +27,7 @@ Y autofit hace que los elementos se expandan hasta cubrir el espacio.*/
 
 
 @mixin glassmorphism {
-    background: rgba(255, 255, 255, 0.2);
+    background: #1e1e1eb9;
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
