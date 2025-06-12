@@ -206,7 +206,7 @@ body {
 
 .container_secundario {
   overflow: hidden;
-  background: rgba(30, 30, 30, 0.7254901961);
+  background: rgba(0, 0, 0, 0.7254901961);
   padding-bottom: 5rem;
 }
 .container_secundario p {
@@ -237,14 +237,14 @@ body {
   background-color: #1E1E1E;
   border: 1px solid #383838;
   border-radius: 8px;
-  padding: 1rem;
 }
-.container_secundario .list_item a {
+.container_secundario .list_item a div {
   color: #c5c5c5;
+  padding: 1rem;
 }
 .container_secundario .list_item img {
   width: 100%;
-  padding-bottom: 1rem;
+  border-radius: 8px 8px 0 0;
 }
 
 .container_terciario {
