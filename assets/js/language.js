@@ -40,6 +40,8 @@ toggle2.addEventListener('change', (event) => {
     proy9desc.textContent = "Landing page created with React and Tailwind for the local restaurant Malek Burger, in Campeche, Mexico."
     proy10title.textContent = "Inventory + Sales system";
     proy10desc.textContent = "A system for maintaining inventory of supplies, products, and promotions, with the addition of sales and ticket printing.";
+    proy11title.textContent = "Weather API + AI";
+    proy11desc.textContent = "Weather check by city with OpenWeather API, checks basic parameters and generates a recommendation for the user based on the weather."
     builted.forEach(item => item.textContent = "Built with: ")
   } else {
     degree.textContent = 'Ing. Software y Sistemas Computacionales 🖥️';
@@ -76,6 +78,8 @@ toggle2.addEventListener('change', (event) => {
     proy9desc.textContent = "Landing page realizado con React y Tailwind, para restaurante local Malek Burger, en la ciudad de Campeche, México.";
     proy10title.textContent = "Sistema de Inventario + ventas";
     proy10desc.textContent = "Un sistema para mantener el inventario de insumos, productos y promos, con la incorporación de ventas e impresión de tickets.";
+    proy11title.textContent = "Consulta API clima + IA";
+    proy11desc.textContent = "Consulta de clima por ciudad con API de OpenWeather, consulta parámetros básicos y genera una recomendación al usuario de acuerdo con el clima."
     builted.forEach(item => item.textContent = "Desarrollado con: ")
   }
 })

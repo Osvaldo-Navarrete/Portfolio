@@ -357,11 +357,17 @@ body {
     .slider .list .item {
         width: 200px;
         position: absolute;
-        right: 100%;
-        animation: autoRun 20s linear infinite;
+        right: 105%;
+        animation: autoRun 25s linear infinite;
         transition: filter 0.5s;
-        animation-delay: calc((20s / 9) * (var(--position) - 1) - 10s) !important; //Aquí es donde se ajusta de acuerdo con el número de elementos, se agrega +1 en el calc. Ejemplo: 20s / 9+1 si se agrega otro.
+        animation-delay: calc((25s / 12) * (var(--position) - 1) - 20s) !important; //Aquí es donde se ajusta de acuerdo con el número de elementos, se agrega +1 en el calc. Ejemplo: 20s / 9+1 si se agrega otro.
+        border: 1px solid #3a0053;
+        background-color: #ffffffc9;
+        height: 200px;
+        object-fit: contain;
+        border-radius: 8px;
     }
+
 
     .slider .list .item img {
         width: 100%;
